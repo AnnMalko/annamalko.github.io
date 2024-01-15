@@ -576,12 +576,6 @@ header .portfolio-row.header-wrap {
     gap: 15px;
 }
 
-.portfolio-wrapper .portfolio-col {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
 .portfolio-col {
     display: flex;
     flex-direction: row;
