@@ -572,13 +572,12 @@ header .portfolio-row.header-wrap {
 
 .portfolio-wrapper {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
 .portfolio-col {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
 }
 
