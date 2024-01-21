@@ -592,7 +592,7 @@ header .portfolio-row.header-wrap {
 
 .portfolio-item.design img {
     max-width: 100%;
-    width: 350px;
+/*     width: 350px; */
     height: 250px;
     object-fit: cover;
     padding: 10px;
@@ -600,7 +600,7 @@ header .portfolio-row.header-wrap {
 
 .portfolio-item.other img {
     max-width: 100%;
-    width: 350px;
+/*     width: 350px; */
     height: 250px;
     border-radius: 5px;
 
