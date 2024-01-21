@@ -610,6 +610,8 @@ header .portfolio-row.header-wrap {
 }
 
 .portfolio-item {
+        display: flex;
+    flex-wrap: wrap;
     position: relative;
     cursor: pointer;
 }
