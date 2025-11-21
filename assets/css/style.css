@@ -262,7 +262,7 @@ header .portfolio-row.header-wrap {
 
 .expertise-overview {
     width: 50%;
-    padding-right: 6.25 rem;
+    padding-right: 6.25rem;
 }
 
 .expertise-description p {
@@ -497,7 +497,7 @@ header .portfolio-row.header-wrap {
 .swiper-slide {
     background-color: var(--bg-color2);
     border-radius: 3px;
-    transition: all 0.3 s ease 0;
+    transition: all 0.3s ease 0;
     padding: 20px 50px;
 }
 
@@ -641,7 +641,7 @@ header .portfolio-row.header-wrap {
     border-radius: 5px;
     top: 0;
     padding-top: 70px;
-    transform: 0.5s;
+    transition: 0.5s;
 }
 
 .portfolio-item-content h6 {
