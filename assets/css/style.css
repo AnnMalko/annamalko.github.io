@@ -112,24 +112,28 @@ header .portfolio-row.header-wrap {
 
 .hamburger {
     order: 3;
-    margin-left: auto;
 }
 
-.hamburger .fa {
-    font-size: 20px;
+.hamburger-button {
     background-color: var(--color3);
-    color: #01143e;
-    display: none;
-    height: 30px;
-    width: 35px;
-    border-radius: 2px;
-    line-height: 30px;
-    text-align: center;
+    border: none;
+    padding: 0;
     cursor: pointer;
+    width: 35px;
+    height: 30px;
+    border-radius: 2px;
+    display: none;
+    position: relative;
+}
+
+.hamburger-button .fa-bars {
+    font-size: 20px;
+    color: #01143e;
 }
 
 .portfolio-navbar {
     order: 2;
+    margin-left: auto;
 }
 
 .portfolio-navbar ul {
@@ -812,7 +816,7 @@ header.header-sticky .brand-name a {
         order: 2;
     }
 
-    .hamburger .fa {
+    .hamburger-button {
         display: inline-block;
     }
 
@@ -827,6 +831,7 @@ header.header-sticky .brand-name a {
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
         display: none;
+        margin-left: 0;
     }
 
     .portfolio-navbar.show {
@@ -871,6 +876,7 @@ header.header-sticky .brand-name a {
 
     .expertise-overview {
         width: 100%;
+        padding-right: 0;
     }
 
     .detail-expertise {
