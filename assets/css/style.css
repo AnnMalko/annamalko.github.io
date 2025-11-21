@@ -99,6 +99,10 @@ header .portfolio-row.header-wrap {
     align-items: center;
 }
 
+.brand-name {
+    order: 1;
+}
+
 .brand-name a {
     font-size: 22px;
     font-weight: 500;
@@ -106,9 +110,13 @@ header .portfolio-row.header-wrap {
     font-family: "Inter", sans-serif;
 }
 
+.hamburger {
+    order: 3;
+    margin-left: auto;
+}
+
 .hamburger .fa {
     font-size: 20px;
-
     background-color: var(--color3);
     color: #01143e;
     display: none;
@@ -118,6 +126,10 @@ header .portfolio-row.header-wrap {
     line-height: 30px;
     text-align: center;
     cursor: pointer;
+}
+
+.portfolio-navbar {
+    order: 2;
 }
 
 .portfolio-navbar ul {
@@ -210,7 +222,6 @@ header .portfolio-row.header-wrap {
 
 .slider-image {
     flex: 0 0 auto;
-
     width: 40%;
 }
 
@@ -583,7 +594,7 @@ header .portfolio-row.header-wrap {
 
 .portfolio-item.development img {
     max-width: 100%;
-        width: 350px;
+    width: 350px;
     height: 250px;
     border-radius: 5px;
     padding: 10px;
@@ -603,13 +614,12 @@ header .portfolio-row.header-wrap {
     width: 350px;
     height: 250px;
     border-radius: 5px;
-
     object-fit: cover;
     padding: 10px;
 }
 
 .portfolio-item {
-        display: flex;
+    display: flex;
     flex-wrap: wrap;
     position: relative;
     cursor: pointer;
@@ -630,7 +640,6 @@ header .portfolio-row.header-wrap {
     width: 100%;
     border-radius: 5px;
     top: 0;
-
     padding-top: 70px;
     transform: 0.5s;
 }
@@ -799,11 +808,16 @@ header.header-sticky .brand-name a {
         color: #01143e;
     }
 
+    .hamburger {
+        order: 2;
+    }
+
     .hamburger .fa {
         display: inline-block;
     }
 
     .portfolio-navbar {
+        order: 3;
         position: absolute;
         background-color: rgb(236, 241, 250);
         width: 100%;
