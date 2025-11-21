@@ -112,18 +112,20 @@ header .portfolio-row.header-wrap {
 
 .hamburger {
     order: 3;
+    display: none;
 }
 
 .hamburger-button {
     background-color: var(--color3);
     border: none;
-    padding: 0;
+    padding: 5px;
     cursor: pointer;
     width: 35px;
     height: 30px;
     border-radius: 2px;
-    display: none;
-    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .hamburger-button .fa-bars {
@@ -814,10 +816,7 @@ header.header-sticky .brand-name a {
 
     .hamburger {
         order: 2;
-    }
-
-    .hamburger-button {
-        display: inline-block;
+        display: block;
     }
 
     .portfolio-navbar {
